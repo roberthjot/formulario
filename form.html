@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>form</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background: hsl(var(--hue-color), 28%, 12%);
+        }
+        .fs{
+            display: block;
+            background-color: var(--first-color);
+            color: #fff;
+            margin: 40px 80px;
+            border-radius: .5rem;
+            border: 10px;
+            cursor: pointer;
+            justify-content: center;
+            text-align: center;
+        }
+        .fs:hover{
+            background-color: var(--first-color-alt);
+        }
+        .cr{
+            text-align: center;
+            color: #fff;
+        }
+        .icon{
+            text-align: center;
+        }
+        
+        @media screen and (max-width: 1024px) {
+            .icon__c{
+            
+            display: inline;
+            margin-left: 450px;
+            color: #fff;
+            font-size: 100px;
+            
+        }
+    }
+        @media screen and (max-width: 768px) {
+            .icon__c{
+            margin-left: 345px;
+
+        }
+        }
+        @media screen and (max-width: 425px) {
+            .icon__c{
+            margin-left: 165px;
+        }
+        }
+        @media screen and (max-width: 320px) {
+            .icon__c{
+            margin-left: 110px;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="pr">
+    <h1 class="cr">tu correo a sido enviado con exito</h1>
+    <a href="">
+        
+    <h1 class="fs">email</h1>
+    </a>
+    <a href="/index.html">
+        <i class="uil uil-check icon__c"></i>
+    </a>
+    </div>
+</body>
+</html>
